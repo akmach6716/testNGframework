@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.hrms.testCases.addemployeetest">
+        <methods>
+          <include name="writereport"/>
+          <include name="addemployee" invocation-numbers="0 1 2"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- com.hrms.testCases.addemployeetest -->
+      <class name="com.hrms.testCases.dataDrivenTest">
+        <methods>
+          <include name="InvalidCredentials_001"/>
+          <include name="writereport"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- com.hrms.testCases.dataDrivenTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

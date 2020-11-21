@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46075" started-at="2020-11-17T04:04:49Z" finished-at="2020-11-17T04:05:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46075" started-at="2020-11-17T04:04:49Z" finished-at="2020-11-17T04:05:35Z">
+      <class name="com.hrms.testCases.loginTest">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.hrms.testCases.loginTest@548e7350]" name="generateReport" is-config="true" duration-ms="198" started-at="2020-11-17T04:04:49Z" finished-at="2020-11-17T04:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hrms.testCases.loginTest@548e7350]" name="setup" is-config="true" duration-ms="13786" started-at="2020-11-17T04:04:50Z" finished-at="2020-11-17T04:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="InvalidCredentials_001()[pri:0, instance:com.hrms.testCases.loginTest@548e7350]" name="InvalidCredentials_001" duration-ms="1527" started-at="2020-11-17T04:05:03Z" finished-at="2020-11-17T04:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidCredentials_001 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hrms.testCases.loginTest@548e7350]" name="teardown" is-config="true" duration-ms="603" started-at="2020-11-17T04:05:05Z" finished-at="2020-11-17T04:05:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hrms.testCases.loginTest@548e7350]" name="setup" is-config="true" duration-ms="7335" started-at="2020-11-17T04:05:06Z" finished-at="2020-11-17T04:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="InvalidCredentials_002()[pri:0, instance:com.hrms.testCases.loginTest@548e7350]" name="InvalidCredentials_002" duration-ms="2041" started-at="2020-11-17T04:05:13Z" finished-at="2020-11-17T04:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidCredentials_002 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hrms.testCases.loginTest@548e7350]" name="teardown" is-config="true" duration-ms="607" started-at="2020-11-17T04:05:15Z" finished-at="2020-11-17T04:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hrms.testCases.loginTest@548e7350]" name="setup" is-config="true" duration-ms="6984" started-at="2020-11-17T04:05:15Z" finished-at="2020-11-17T04:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="InvalidCredentials_003()[pri:0, instance:com.hrms.testCases.loginTest@548e7350]" name="InvalidCredentials_003" duration-ms="385" started-at="2020-11-17T04:05:22Z" finished-at="2020-11-17T04:05:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidCredentials_003 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hrms.testCases.loginTest@548e7350]" name="teardown" is-config="true" duration-ms="596" started-at="2020-11-17T04:05:23Z" finished-at="2020-11-17T04:05:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hrms.testCases.loginTest@548e7350]" name="setup" is-config="true" duration-ms="6864" started-at="2020-11-17T04:05:23Z" finished-at="2020-11-17T04:05:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidCredentials()[pri:0, instance:com.hrms.testCases.loginTest@548e7350]" name="ValidCredentials" duration-ms="4514" started-at="2020-11-17T04:05:30Z" finished-at="2020-11-17T04:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidCredentials -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hrms.testCases.loginTest@548e7350]" name="teardown" is-config="true" duration-ms="596" started-at="2020-11-17T04:05:35Z" finished-at="2020-11-17T04:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="writereport()[pri:0, instance:com.hrms.testCases.loginTest@548e7350]" name="writereport" is-config="true" duration-ms="6" started-at="2020-11-17T04:05:35Z" finished-at="2020-11-17T04:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writereport -->
+      </class> <!-- com.hrms.testCases.loginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
