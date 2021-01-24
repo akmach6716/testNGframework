@@ -1,0 +1,149 @@
+[1602858695.556][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 21354
+[1602858695.583][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1602858696.372][INFO]: [91c47ee488c1b3aac69f246e05f9e968] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1602858696.375][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1602858696.376][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1602858696.412][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Aditya\AppData\Local\Temp\scoped_dir7436_289683790" data:,
+[1602858697.107][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602858698.151][INFO]: [91c47ee488c1b3aac69f246e05f9e968] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.75",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\Aditya\\AppData\\Local\\Temp\\scoped_dir7436_289683790"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:59242"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "91c47ee488c1b3aac69f246e05f9e968"
+}
+[1602858698.215][INFO]: [91c47ee488c1b3aac69f246e05f9e968] COMMAND MaximizeWindow {
+
+}
+[1602858698.215][INFO]: Waiting for pending navigations...
+[1602858698.217][INFO]: Done waiting for pending navigations. Status: ok
+[1602858698.218][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602858699.368][INFO]: Waiting for pending navigations...
+[1602858699.370][INFO]: Done waiting for pending navigations. Status: ok
+[1602858699.370][INFO]: [91c47ee488c1b3aac69f246e05f9e968] RESPONSE MaximizeWindow {
+   "height": 694,
+   "width": 1294,
+   "x": -7,
+   "y": -7
+}
+[1602858699.382][INFO]: [91c47ee488c1b3aac69f246e05f9e968] COMMAND Navigate {
+   "url": "https://www.google.co.in/"
+}
+[1602858699.382][INFO]: Waiting for pending navigations...
+[1602858699.383][INFO]: Done waiting for pending navigations. Status: ok
+[1602858699.781][INFO]: Waiting for pending navigations...
+[1602858700.832][INFO]: Done waiting for pending navigations. Status: ok
+[1602858700.832][INFO]: [91c47ee488c1b3aac69f246e05f9e968] RESPONSE Navigate
+[1602858700.837][INFO]: [91c47ee488c1b3aac69f246e05f9e968] COMMAND GetTitle {
+
+}
+[1602858700.837][INFO]: Waiting for pending navigations...
+[1602858700.838][INFO]: Done waiting for pending navigations. Status: ok
+[1602858700.843][INFO]: Waiting for pending navigations...
+[1602858700.844][INFO]: Done waiting for pending navigations. Status: ok
+[1602858700.844][INFO]: [91c47ee488c1b3aac69f246e05f9e968] RESPONSE GetTitle "Google"
+[1602858700.849][INFO]: [91c47ee488c1b3aac69f246e05f9e968] COMMAND Quit {
+
+}
+[1602858701.032][INFO]: [91c47ee488c1b3aac69f246e05f9e968] RESPONSE Quit
