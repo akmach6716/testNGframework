@@ -22,6 +22,7 @@ public class CommonMethods {
 		waitforVisibility(ele);
 		ele.clear();
 		ele.sendKeys(Text);
+		
 	}
 
 	public static void clickAction(WebElement ele) {
